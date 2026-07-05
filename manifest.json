@@ -1,0 +1,9 @@
+{
+    "id": "forgejo-installer",
+    "name": "Forgejo Installer",
+    "version": "0.1.0",
+    "minAppVersion": "1.5.0",
+    "description": "Install and update Obsidian plugins from Forgejo/Gitea repositories, BRAT-style.",
+    "author": "arudev",
+    "isDesktopOnly": false
+}
