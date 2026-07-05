@@ -17,9 +17,11 @@ CI required.
 
 ## Setup
 
-1. Copy `manifest.json` and `main.js` of this plugin into
-   `.obsidian/plugins/forgejo-installer/` and enable it (or let LiveSync
-   distribute it).
+1. Install this plugin with [BRAT](https://github.com/TfTHacker/obsidian42-brat):
+   add `Arutyun2312/arudev-obsidian-installer` as a beta plugin. This repo is
+   private, so set a GitHub personal access token in BRAT's settings first.
+   (Manual alternative: copy `manifest.json` and `main.js` into
+   `.obsidian/plugins/forgejo-installer/`.)
 2. In the plugin settings set:
    - **Forgejo base URL** — e.g. `https://forgejo.example.com`
    - **API token** — only needed for private repositories
